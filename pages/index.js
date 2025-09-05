@@ -8,11 +8,9 @@ function HomePage(props) {
     </div>
   );
 }
-//this function will run at build time on the server side
-//this function will never run on the client side
-//this function will be used to fetch data from an API or database
-//this function will be used to pre-render the page with the fetched data
-//this function will be used to revalidate the page every 30 minutes
+//let's solve this very importnat issue of fetching data from an external API
+//we will use getStaticProps to fetch data at build time
+//this function runs only on the server side and never on the client side
 
 export async function getStaticProps() {
   const featuredEvents = await getFeaturedEvents();
