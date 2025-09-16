@@ -1,1 +1,1 @@
-this is my next js rendering program that 
+this is my next js rendering 
