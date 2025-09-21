@@ -1,1 +1,1 @@
-this is my next js rendering component. and i
+this is my next js rendering component. 
